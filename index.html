@@ -128,6 +128,7 @@
           <ul class="product-section-list list">
             <li class="product-section-group">
               <img
+                srcset="./images/img1@1x.jpg 1x, ./images/img1@2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="User's picture on the monitor"
                 width="360"
@@ -136,6 +137,7 @@
             </li>
             <li class="product-section-group">
               <img
+                srcset="./images/img2@1x.jpg 1x, ./images/img2@2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="Four pages of the chat on the mobile phone"
                 width="360"
@@ -143,7 +145,13 @@
               />
             </li>
             <li class="product-section-group">
-              <img src="./images/img3.jpg" alt="Mobile in the hand" width="360" height="300" />
+              <img
+                srcset="./images/img3@1x.jpg 1x, ./images/img3@2x.jpg 2x"
+                src="./images/img3.jpg"
+                alt="Mobile in the hand"
+                width="360"
+                height="300"
+              />
             </li>
           </ul>
         </div>
@@ -154,7 +162,12 @@
           <h2 class="team-section-title">Our Team</h2>
           <ul class="team-section-list list">
             <li class="team-group-cards">
-              <img src="./images/imgmark.jpg" alt="Mark Guerrero picture" width="264" />
+              <img
+                srcset="./images/imgmark@1x.jpg 1x, ./images/imgmark@2x.jpg 2x"
+                src="./images/imgmark.jpg"
+                alt="Mark Guerrero picture"
+                width="264"
+              />
               <div class="team-cards">
                 <h3 class="team-cards-title">Mark Guerrero</h3>
                 <p class="team-cards-text">Product Designer</p>
@@ -191,7 +204,12 @@
               </div>
             </li>
             <li class="team-group-cards">
-              <img src="./images/imgtom.jpg" alt="Tom Ford picture" width="264" />
+              <img
+                srcset="./images/imgtom@1x.jpg 1x, ./images/imgtom@2x.jpg 2x"
+                src="./images/imgtom.jpg"
+                alt="Tom Ford picture"
+                width="264"
+              />
               <div class="team-cards">
                 <h3 class="team-cards-title">Tom Ford</h3>
                 <p class="team-cards-text">Frontend Developer</p>
@@ -228,7 +246,12 @@
               </div>
             </li>
             <li class="team-group-cards">
-              <img src="./images/imgcamila.jpg" alt="Camila Garcia picture" width="264" />
+              <img
+                srcset="./images/imgcamila@1x.jpg 1x, ./images/imgcamila@2x.jpg 2x"
+                src="./images/imgcamila.jpg"
+                alt="Camila Garcia picture"
+                width="264"
+              />
               <div class="team-cards">
                 <h3 class="team-cards-title">Camila Garcia</h3>
                 <p class="team-cards-text">Marketing</p>
@@ -265,7 +288,12 @@
               </div>
             </li>
             <li class="team-group-cards">
-              <img src="./images/imgdaniel.jpg" alt="Daniel Wilson picture" width="264" />
+              <img
+                srcset="./images/imgdaniel@1x.jpg 1x, ./images/imgdaniel@2x.jpg 2x"
+                src="./images/imgdaniel.jpg"
+                alt="Daniel Wilson picture"
+                width="264"
+              />
               <div class="team-cards">
                 <h3 class="team-cards-title">Daniel Wilson</h3>
                 <p class="team-cards-text">UI Designer</p>
@@ -493,14 +521,7 @@
     <!--Mobile menu-->
     <div class="mobile-container js-menu-container" id="mobile-menu">
       <button class="mobile-close-button js-close-menu" type="button">
-        <svg
-          class="close-icon"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="8"
-          height="8"
-        >
+        <svg class="close-icon" fill="currentColor" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
