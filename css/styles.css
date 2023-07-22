@@ -800,12 +800,11 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     display: block;
-        min-width: 169px;
-        height: 56px;
-        margin: 0 auto;
-        transition: background-color var(--transition); box-shadow var(--transition);
+    min-width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    transition: background-color var(--transition); box-shadow var(--transition);
 }
-
 .order-service-button:hover,
 .order-service-button:focus {
     background-color: var(--ocean-color);
@@ -958,12 +957,20 @@ background-color: var(--white-color);
 /*Section4 Customers*/
 
 .customers-section {
-    margin: 0;
-    text-align: center;
+    padding: 0;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        margin: 0;
+        text-align: center;
 }
 
 .customers-title {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--navi-blue-color);
     margin-bottom: 72px;
 }
 
@@ -971,8 +978,8 @@ background-color: var(--white-color);
 display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 72px 16px;
-}
+    justify-content: space-between;
+        gap: 24px;
 
 .customers-group {
     width: calc((100% - 120px) / 6);
