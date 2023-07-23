@@ -90,12 +90,14 @@ img {
     }
 }
 
-.customers-section {
+.customers-section,
+.product-section {
     padding: 120px 0;
 }
 
 @media screen and (max-width: 1157px) {
-    .customers-section {
+    .customers-section,
+    .product-section {
         padding: 96px 0;
     }
 }
