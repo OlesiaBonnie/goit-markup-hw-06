@@ -957,31 +957,24 @@ background-color: var(--white-color);
 /*Section4 Customers*/
 
 .customers-section {
-    padding: 0;
-        padding-top: 120px;
-        padding-bottom: 120px;
+
         margin: 0;
         text-align: center;
 }
 
 .customers-title {
-font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--navi-blue-color);
+text-align: center;
     margin-bottom: 72px;
 }
 
 .customers-list {
 display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    gap: 24px;
+    gap: 72px 16px;
 }
 .customers-group {
-    width: calc((100% - 120px) / 6);
+width: calc((100% - 16px) / 2);
     display: inline-flex;
     align-items: center;
     justify-content: center;
