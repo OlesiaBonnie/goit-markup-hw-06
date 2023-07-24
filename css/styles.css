@@ -1260,7 +1260,7 @@ width: calc((100% - 16px) / 2);
 
     .footer-tab-content {
         margin: 0;
-        
+        margin-left: 108px;
         text-align: left;
     }
 
