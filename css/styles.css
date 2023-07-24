@@ -759,7 +759,7 @@ font-weight: 500;
     background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/peopleoffice.jpg);
+            url(../images/peopleoffice_mob@1x.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -774,7 +774,7 @@ font-weight: 500;
         screen and (min-resolution: 2dppx) {
             .title-section {
                 background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                    url(../images/peopleoffice@2x.jpg);
+                    url(../images/peopleoffice_mob@2x.jpg);
             }
         }
 .title {
@@ -827,9 +827,9 @@ font-weight: 500;
 }
 .strategy-section-title {
     color: var(--navi-blue-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
@@ -837,6 +837,10 @@ font-weight: 500;
 
 .strategy-section-text {
     font-weight: 500;
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-color);
 }
 .advantages {
     display: none;
@@ -1096,7 +1100,7 @@ width: calc((100% - 16px) / 2);
 }
 .overlay-card {
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .overlay {
@@ -1145,7 +1149,7 @@ width: calc((100% - 16px) / 2);
 
     .title-section {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/peopleoffice.jpg);
+            url(../images/peopleoffice_tab@1x.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1159,7 +1163,7 @@ width: calc((100% - 16px) / 2);
     screen and (min-resolution: 2dppx) {
         .title-section {
             background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url(../images/peopleoffice@2x.jpg);
+                url(../images/peopleoffice_tab@2x.jpg);
         }
     }
 
