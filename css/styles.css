@@ -1282,7 +1282,7 @@ width: calc((100% - 16px) / 2);
 
     .footer-subscribe {
         margin: 0;
-        margin-left: 108px;
+        /*margin-left: 108px;*/
         text-align: left;
     }
 
