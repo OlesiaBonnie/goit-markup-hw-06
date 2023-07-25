@@ -830,9 +830,9 @@ font-weight: 500;
 .strategy-section-group {
     width: 100%;
 }
-/*.strategy-section-group:not(:last-child) {
+.strategy-section-group:not(:last-child) {
     margin-bottom: 72px;
-}*/
+}
 .strategy-section-title {
     color: var(--navi-blue-color);
     font-weight: 700;
