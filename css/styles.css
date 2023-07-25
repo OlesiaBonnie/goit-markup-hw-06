@@ -51,8 +51,8 @@
 
 .title-h3 {
     color: var(--navi-blue-color);
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
@@ -91,14 +91,17 @@ img {
 }
 
 .customers-section,
-.product-section {
+.product-section,
+.team-section,
+.strategy-section {
     padding: 120px 0;
 }
 
 @media screen and (max-width: 1157px) {
     .customers-section,
     .product-section,
-    .team-section {
+    .team-section,
+    .strategy-section {
         padding: 96px 0;
     }
 }
@@ -266,12 +269,15 @@ p {
 .accent-footer {
     color: var(--cloud-color);
 }
-
+.footer-tab-social {
+    margin: 0 auto;
+    margin-bottom: 72px;
+}
 .footer-text {
     font-weight: 400;
         color: var(--white-color);
             max-width: 264px;
-            margin-bottom: 16px;
+            margin-bottom: 0;
 }
 
 .social-text {
@@ -824,13 +830,13 @@ font-weight: 500;
 .strategy-section-group {
     width: 100%;
 }
-.strategy-section-group:not(:last-child) {
+/*.strategy-section-group:not(:last-child) {
     margin-bottom: 72px;
-}
+}*/
 .strategy-section-title {
     color: var(--navi-blue-color);
-    font-weight: 500;
-        font-size: 20px;
+    font-weight: 700;
+        font-size: 36px;
         line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
@@ -1260,13 +1266,13 @@ width: calc((100% - 16px) / 2);
 
     .footer-tab-content {
         margin: 0;
-        margin-left: 108px;
+        max-width: 550px;
         text-align: left;
     }
 
     .footer-tab-social {
         margin: 0;
-        margin-left: 24px;
+            margin-left: 24px;
         text-align: left;
     }
 
@@ -1333,7 +1339,7 @@ width: calc((100% - 16px) / 2);
 
     .title-section {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/peopleoffice.jpg);
+            url(../images/peopleoffice_desk@1x.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1347,7 +1353,7 @@ width: calc((100% - 16px) / 2);
     screen and (min-resolution: 2dppx) {
         .title-section {
             background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url(../images/peopleoffice@2x.jpg);
+                url(../images/peopleoffice_desk@2x.jpg);
         }
     }
 
@@ -1421,6 +1427,7 @@ width: calc((100% - 16px) / 2);
     .footer-tab-content {
         margin: 0;
         margin-right: 120px;
+        max-width: 550px;
     }
 
     .footer-text {
